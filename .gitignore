@@ -1,0 +1,29 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.db
+backend/.env
+backend/.seeded_tokens.txt
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+backend/uploads/
+worker/__pycache__/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+widget/node_modules/
+widget/dist/
+
+# Docker / root env
+.env
+
+# Launcher logs
+.run-logs/
+
+# OS
+.DS_Store
+Thumbs.db

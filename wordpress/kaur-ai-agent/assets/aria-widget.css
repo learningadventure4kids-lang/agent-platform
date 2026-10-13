@@ -1,0 +1,9 @@
+/* Intentionally empty.
+ *
+ * aria-widget.js compiles its own CSS at build time and injects it into an
+ * isolated Shadow DOM root at runtime (see widget/src/index.tsx in the
+ * platform repo), so there is no separate stylesheet to enqueue here. This
+ * file exists only so the plugin's asset layout matches what admins/devs
+ * might expect, and so a future non-Shadow-DOM build target has an obvious
+ * place to write to.
+ */

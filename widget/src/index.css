@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .aria-widget-root {
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+}
+
+/* Mobile full-screen mode for the floating panel (per spec section 7). */
+@media (max-width: 480px) {
+  .aria-widget-panel {
+    inset: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: 0 !important;
+  }
+}
